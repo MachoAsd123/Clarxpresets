@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Clarx Martin Photography</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:Poppins,system-ui;background:#0b0b0c;color:#e5e5e5;}
+.container{max-width:1000px;margin:auto;padding:70px 20px;text-align:center}
+.hero{padding:130px 20px;background:linear-gradient(180deg,#0b0b0c,#111113);}
+h1{font-size:56px;margin:0;color:white;font-weight:800;letter-spacing:-1px}
+h2{font-size:34px;color:white;margin-bottom:20px;font-weight:600}
+p{color:#a1a1aa;line-height:1.8;font-size:16px;font-weight:400}
+.gold{color:#d4af37}
+.section{padding:90px 20px;border-top:1px solid #1c1c20}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:40px}
+.card{background:#121214;border:1px solid #1f1f23;border-radius:18px;padding:28px;transition:.25s}
+.card h3{margin:0 0 10px 0;font-weight:600}
+.card.black{background:#0f0f11;color:#888;cursor:not-allowed}
+.card.yellow{background:#ffd400;color:black;font-weight:600;text-decoration:none;display:block}
+.card.yellow:hover{filter:brightness(1.05);transform:translateY(-2px)}
+.contact{background:#111113;border-top:1px solid #1f1f23}
+footer{border-top:1px solid #1f1f23;padding:30px;text-align:center;color:#777}
+a{text-decoration:none;color:inherit}
+</style>
+</head>
+<body>
+
+<div class="hero container">
+  <h1>Make Your Photos Look Professionally Edited in Seconds</h1>
+  <p>Real photographic colour grading — built from 35+ years behind the lens</p>
+  <p style="letter-spacing:3px;font-size:12px">REAL LIGHT • REAL COLOUR • REAL TONE</p>
+</div>
+
+<div class="section container">
+  <h2>Tools — Not Filters</h2>
+  <p>Designed to create intentional, natural looking images instantly. Each preset is based on real colour grading workflows used in professional photography.</p>
+</div>
+
+<div class="section container">
+  <h2>Preset Collections</h2>
+  <div class="grid">
+    <a class="card yellow" href="https://clarxmartin.gumroad.com/l/ldyvoi" target="_blank"><h3>Automotive</h3><p>Available now</p></a>
+    <a class="card yellow" href="https://clarxmartin.gumroad.com/l/svzcub?_gl=1*1nee5zz*_ga*MjY0ODcwODI3LjE3NzE1MjAyMDQ.*_ga_6LJN6D94N6*czE3NzE5NDY0NDckbzEwJGcxJHQxNzcxOTQ4MzEyJGozNSRsMCRoMA.." target="_blank"><h3>Portrait</h3><p>Available now</p></a>
+    <div class="card black"><h3>Wedding</h3><p>Coming soon</p></div>
+    <div class="card black"><h3>Landscape</h3><p>Coming soon</p></div>
+    <div class="card black"><h3>Film Look</h3><p>Coming soon</p></div>
+  </div>
+</div>
+
+<div class="section container">
+  <h2>How It Works</h2>
+  <p>Download → Import → Tap → Done</p>
+</div>
+
+<div class="section contact container">
+  <h2>Contact</h2>
+  <p><a href="mailto:clarxpresets@yahoo.com" style="color:#ffd400;text-decoration:none;font-weight:600">clarxpresets@yahoo.com</a></p>
+</div>
+
+<footer>
+© <span id="year"></span> Clarx Martin Photography
+</footer>
+
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
